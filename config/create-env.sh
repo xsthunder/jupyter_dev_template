@@ -15,6 +15,8 @@ conda activate $env_name
 # for development/test
 yes | pip install sure
 
+# distro deps
+yes | pip install -r install_requires.txt
 
 
 # sure=1.4.11
