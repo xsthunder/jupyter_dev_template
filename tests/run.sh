@@ -8,6 +8,7 @@ if test $TRAVIS
 then
     source $HOME/miniconda/etc/profile.d/conda.sh
     conda activate test
+    echo "done: conda activated test"
 fi
 
 # TRAVIS=true
