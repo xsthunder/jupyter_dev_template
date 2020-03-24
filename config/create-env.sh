@@ -7,10 +7,12 @@ fi
 # py3.7 for asyncio.WindowsProactorEventLoopPolicy() support
 
 env_name=test
+
 conda create -n $env_name IPython tqdm -c conda-forge -y
 
 conda activate $env_name
 yes | pip install sure xsthunder-python-lib
+
 
 
 # sure=1.4.11
