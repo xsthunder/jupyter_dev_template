@@ -1,0 +1,2 @@
+include config/version.txt
+include config/project_name.txt
