@@ -12,9 +12,8 @@ conda create -n $env_name IPython tqdm -c conda-forge -y
 
 conda activate $env_name
 
-echo done conda activated $env_name
-
-yes | pip install sure xsthunder-python-lib
+# for development/test
+yes | pip install sure
 
 
 

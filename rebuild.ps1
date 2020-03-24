@@ -10,3 +10,6 @@ pip uninstall $project_name -y
 python setup.py sdist bdist_wheel
 pip install .\dist\$project_name-$version.tar.gz
 pip install .\dist\$project_name-$version-py3-none-any.whl
+
+# checking what directory are added
+# pip uninstall $project_name
