@@ -8,4 +8,18 @@
 
 2. clone this
 
-2. rename all `jupyter_dev_template` occurence to current project name
+## rename to start
+
+all set to the same name, with `_` instead of `-`
+
+1. [project_name.txt](./configp/roject_name.txt)
+
+2. `./jupyter_dev_template`
+
+## want to release to pip 
+
+### ref 
+
+[python-snippet/upload_to_pip.md at master · xsthunder/python-snippet](https://github.com/xsthunder/python-snippet/blob/master/python/upload_to_pip.md)
+
+[xsthunder/xs_lib](https://github.com/xsthunder/xs_lib)
