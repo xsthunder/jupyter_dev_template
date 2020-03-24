@@ -1,4 +1,4 @@
-# jupyter_dev_template
+# jupyter_dev_template[![Build Status](https://travis-ci.com/xsthunder/jupyter_dev_template.svg?branch=master)](https://travis-ci.com/xsthunder/jupyter_dev_template)
 
 ## start
 
