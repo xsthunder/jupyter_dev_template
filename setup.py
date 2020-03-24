@@ -1,12 +1,17 @@
 import setuptools
 
-with open("README.md", "r", encoding="UTF-8") as fh:
-    long_description = fh.read()
+def read_file(name):
+    with open(name, "r", encoding="UTF-8") as f:
+        return f.read()
+
+version = read_file("./config/version.txt")
+project_name = read_file("./config/project_name.txt")
+long_description = read_file('./README.md')
     
 
 setuptools.setup(
-    name="jupyter_dev_template", # Replace with your own username
-    version="0.0.1",
+    name=project_name,
+    version=version,
     author="xsthunder",
     author_email="xsthunder@outlook.com",
     # description="personal lib",
