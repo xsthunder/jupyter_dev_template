@@ -1,8 +1,8 @@
 # run by powershell
 $ErrorActionPreference = "Stop" # exit on error
 
-$version=get-content ./config/version.txt
 $project_name=get-content ./config/project_name.txt
+$version=python -c "from $project_name import __version__; print(__version__)"
 
 # pip install setuptools wheel twine # --user
 
