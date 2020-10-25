@@ -2,7 +2,7 @@
 
 ## start
 
-1. install [xsthunder/python-lib](https://github.com/xsthunder/python-lib)
+1. install [xsthunder/xs_lib: personal python lib](https://github.com/xsthunder/xs_lib)
 
 2. clone this
 
