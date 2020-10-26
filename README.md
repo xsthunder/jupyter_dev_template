@@ -2,9 +2,9 @@
 
 ## start
 
-1. install [xsthunder/xs_lib: personal python lib](https://github.com/xsthunder/xs_lib), tqdm, ipywidgets, fire
-
-2. clone this
+1. create a new env and run `yes | pip install -r install_requires.txt`
+1. `yes | pip install ipywidgets`
+1. clone this
 
 ## rename to start
 
