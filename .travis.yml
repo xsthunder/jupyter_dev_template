@@ -11,6 +11,7 @@ install:
 - bash ./create-env.sh
 - cd ..
 script:
+- bash ./rename_project_name.sh "test_project_name_on_travis"
 - cd tests
 - bash run.sh
 - cd ..

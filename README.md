@@ -6,7 +6,7 @@
 1. `yes | pip install ipywidgets`
 1. clone this
 
-## rename to start
+## rename to start or use [rename_project_name.sh](rename_project_name.sh)
 
 all set to the same name, with `_` instead of `-`
 
