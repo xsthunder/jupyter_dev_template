@@ -18,10 +18,14 @@ all set to the new project name, with `_` instead of `-`
 
 4. change `from jupyter_dev_template.common import export_notebook` in[./notebooks/template.ipynb](./notebooks/template.ipynb)
 
-## want to release to pip 
+## use [Sure 1.4.7 - Documentation — sure 1.4.7 documentation](https://sure.readthedocs.io/en/latest/) instead of assert
+
+## release to pip？
 
 ### ref 
 
 [python-snippet/upload_to_pip.md at master · xsthunder/python-snippet](https://github.com/xsthunder/python-snippet/blob/master/python/upload_to_pip.md)
 
 [xsthunder/xs_lib](https://github.com/xsthunder/xs_lib)
+
+NOTE: always need to create new deploy using travis cli if you want to use travis automated deploy [PyPI deployment - Travis CI](https://docs.travis-ci.com/user/deployment/pypi/)
