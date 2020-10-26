@@ -8,7 +8,7 @@ fi
 
 env_name=test
 
-conda create -n $env_name IPython tqdm -c conda-forge -y
+conda create -n $env_name IPython -c conda-forge -y
 
 conda activate $env_name
 
