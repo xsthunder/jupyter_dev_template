@@ -10,7 +10,7 @@
 
 all set to the same name, with `_` instead of `-`
 
-1. [project_name.txt](./config/roject_name.txt)
+1. [project_name.txt](./config/project_name.txt)
 
 2. change dir name `./jupyter_dev_template`
 
