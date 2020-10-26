@@ -8,7 +8,7 @@
 
 ## rename to start or use [rename_project_name.sh](rename_project_name.sh)
 
-all set to the same name, with `_` instead of `-`
+all set to the new project name, with `_` instead of `-`
 
 1. [project_name.txt](./config/project_name.txt)
 

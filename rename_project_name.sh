@@ -16,5 +16,5 @@ fi
 
 
 PROJECT_NAME=$1
-sed -i "s/jupyter_dev_template/test_project_name/g" config/project_name.txt notebooks/*.ipynb jupyter_dev_template/*.py
+sed -i "s/jupyter_dev_template/test_project_name/g" config/project_name.txt notebooks/*.ipynb jupyter_dev_template/*.py tests/*.py tests/run.*
 mv ./jupyter_dev_template $PROJECT_NAME
