@@ -13,10 +13,7 @@ fi
 
 # TRAVIS=true
 
-# test entrance
-python ../jupyter_dev_template/template.py 'world'
 
-python ./test_template.py 'world'
 
 # run test
 
@@ -27,3 +24,11 @@ for file in ./*.py
 do
 	python $file
 done
+
+# test entrance
+export STOP_FIRE=""
+
+python ./test_template.py 'world'
+
+python ../jupyter_dev_template/template.py 'world'
+
