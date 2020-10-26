@@ -24,8 +24,10 @@ all set to the new project name, with `_` instead of `-`
 
 ### ref 
 
-[python-snippet/upload_to_pip.md at master · xsthunder/python-snippet](https://github.com/xsthunder/python-snippet/blob/master/python/upload_to_pip.md)
+- [python-snippet/upload_to_pip.md at master · xsthunder/python-snippet](https://github.com/xsthunder/python-snippet/blob/master/python/upload_to_pip.md)
 
-[xsthunder/xs_lib](https://github.com/xsthunder/xs_lib)
+- as a pakage refer to [xsthunder/xs_lib](https://github.com/xsthunder/xs_lib)
+
+- has cli refer to [xsthunder/download-youtube-subtitle: download youtube subtitles(closed caption, cc) as txt or json, support translation and proxy. available on PIP 🐍](https://github.com/xsthunder/download-youtube-subtitle)
 
 NOTE: always need to create new deploy using travis cli if you want to use travis automated deploy [PyPI deployment - Travis CI](https://docs.travis-ci.com/user/deployment/pypi/)
