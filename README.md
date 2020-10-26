@@ -2,7 +2,7 @@
 
 ## start
 
-1. install [xsthunder/xs_lib: personal python lib](https://github.com/xsthunder/xs_lib)
+1. install [xsthunder/xs_lib: personal python lib](https://github.com/xsthunder/xs_lib), tqdm, ipywidgets, fire
 
 2. clone this
 
@@ -10,7 +10,7 @@
 
 all set to the same name, with `_` instead of `-`
 
-1. [project_name.txt](./configp/roject_name.txt)
+1. [project_name.txt](./config/roject_name.txt)
 
 2. change dir name `./jupyter_dev_template`
 
