@@ -5,3 +5,12 @@
 import sys
 if __name__ == '__main__': sys.path.append('..')
 from jupyter_dev_template.common import export_notebook
+
+def main(name):
+    print(f"hello {name}")
+
+import fire
+import xs_lib
+import os
+if not xs_lib.common.IN_JUPYTER and __name__=="__main__" and os.environ.get("STOP_FIRE", "") != "true":
+    fire.Fire(main)
