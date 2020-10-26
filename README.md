@@ -16,7 +16,7 @@ all set to the same name, with `_` instead of `-`
 
 3. change `export_notebook = Export_notebook('jupyter_dev_template', working_dir_tag='notebooks')` in  [./notebooks/common.ipynb](./notebooks/common.ipynb)
 
-4. change `from jupyter_dev_template.common import export_notebook` in[./notebooks/common.ipynb](./notebooks/common.ipynb)
+4. change `from jupyter_dev_template.common import export_notebook` in[./notebooks/template.ipynb](./notebooks/template.ipynb)
 
 ## want to release to pip 
 
