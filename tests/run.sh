@@ -13,7 +13,16 @@ fi
 
 # TRAVIS=true
 
+# test entrance
+python ../jupyter_dev_template/template.py 'world'
+
+python ./test_template.py 'world'
+
 # run test
+
+# this will avoid fire requiring args
+export STOP_FIRE="true"
+
 for file in ./*.py
 do
 	python $file
